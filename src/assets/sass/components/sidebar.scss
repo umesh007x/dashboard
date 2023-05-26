@@ -1,0 +1,31 @@
+.sidebar {
+  width: 8%;
+  background-color: #f0f8ff;
+  border-radius: 8px;
+  box-shadow: 4px 4px 8px -2px rgba(0, 79, 149, 0.25);
+  padding: 1.4rem;
+  max-height: 85rem;
+  &__logo {
+    width: 100%;
+  }
+  &__navs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.5rem;
+    margin-bottom: 4.2rem;
+    &--nav {
+      width: 4.3rem;
+      height: 4.3rem;
+      padding: 1rem;
+      margin-bottom: 1.2rem;
+    }
+    &--home {
+      background-color: #004f95;
+      border-radius: 10px;
+    }
+    &--icon {
+      width: 100%;
+    }
+  }
+}

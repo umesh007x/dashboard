@@ -1,0 +1,38 @@
+.main {
+  display: flex;
+}
+.layout {
+  width: 92%;
+  margin: 2.5rem;
+  position: relative;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.2rem;
+  &__search {
+    background-color: #f0f8ff;
+    border-radius: 30px;
+    border: 1px solid #3a3a3a;
+    padding: 1.1rem;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 2px 8px -2px rgba(0, 79, 149, 0.25);
+    & > input {
+      background-color: #f0f8ff;
+      border: none;
+      width: 100%;
+
+      &:focus {
+        outline: none;
+      }
+    }
+    & > i {
+      color: #004f95;
+      font-size: 1.6rem;
+      margin-right: 1.2rem;
+    }
+  }
+}
